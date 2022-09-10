@@ -14,7 +14,7 @@ async function main() {
 
   console.log("Deploying Transaction")
   await deployedRandomWinnerGame.deployTransaction.wait(6);
-  console.log(`Transaction deployed at ${deployedRandomWinnerGame.address}`)  // 0xb43B7Bb6cF4721bcd2412790bE6cf344Ad915C34
+  console.log(`Transaction deployed at ${deployedRandomWinnerGame.address}`)  // 0xb8FB8484F76fd49825195eE616B5F9880d860009
   console.log("----------------------------------------------------------------")
 
   console.log(
